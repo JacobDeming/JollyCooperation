@@ -1,0 +1,17 @@
+{
+  "name": "jollycooperation",
+  "version": "1.0.0",
+  "description": "Teams People Up For Games",
+  "main": "server.js",
+  "scripts": {
+    "test": "node server.js",
+    "start": "node server.js"
+  },
+  "author": "Jacob Deming",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "express": "^4.13.4",
+    "path": "^0.12.7"
+  }
+}

@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Find a Cooperator</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+	<script src="https://code.jquery.com/jquery.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+</head>
+<body>
+
+<div class="container">
+
+	<div class="row">
+		<div class="col-lg-12">
+			<div class="panel panel-default">
+				<div class="panel-heading">
+					<h4 class="panel-title">Find a Cooperator</h4>
+				</div>
+				<div class="panel-body">
+					<form role="form">
+						<div class="form-group">
+							<label for="">Name</label>
+							<input type="text" class="form-control" id="Username">
+						</div>
+						<div class="form-group">
+							<label for="">Game of Choice</label>
+							<input type="text" class="form-control" id="GameChoice">
+						</div>
+						<div class="form-group">
+							<label for="">Photo URL</label>
+							<input type="text" class="form-control" id="Photo">
+						</div>
+						<hr>
+						<div class="form-group">
+							<label for="">Victory belongs to the team as a whole</label>
+							<select class="form-control" style="width: 157px;" id="q1">
+									<option value>Select an Option</option>
+									<option value="1">1 (Strongly Disagree)</option>
+									<option value="2">2</option>
+									<option value="3">3</option>
+									<option value="4">4</option>
+									<option value="5">5 (Strongly Agree)</option>
+							</select>
+						</div>
+						<div class="form-group">
+							<label for="">I think moving quickly is key</label>
+							<select class="form-control" style="width: 157px;" id="q2">
+									<option value>Select an Option</option>
+									<option value="1">1 (Strongly Disagree)</option>
+									<option value="2">2</option>
+									<option value="3">3</option>
+									<option value="4">4</option>
+									<option value="5">5 (Strongly Agree)</option>
+							</select>
+						</div>
+						<div class="form-group">
+							<label for="">I keep my cool under pressure</label>
+							<select class="form-control" style="width: 157px;" id="q3">
+									<option value>Select an Option</option>
+									<option value="1">1 (Strongly Disagree)</option>
+									<option value="2">2</option>
+									<option value="3">3</option>
+									<option value="4">4</option>
+									<option value="5">5 (Strongly Agree)</option>
+							</select>
+						</div>
+						<div class="form-group">
+							<label for="">I focus on dealing damage more than anything else</label>
+							<select class="form-control" style="width: 157px;" id="q4">
+									<option value>Select an Option</option>
+									<option value="1">1 (Strongly Disagree)</option>
+									<option value="2">2</option>
+									<option value="3">3</option>
+									<option value="4">4</option>
+									<option value="5">5 (Strongly Agree)</option>
+							</select>
+						</div>
+						<div class="form-group">
+							<label for="">I want to keep my teammates healthy</label>
+							<select class="form-control" style="width: 157px;" id="q5">
+									<option value>Select an Option</option>
+									<option value="1">1 (Strongly Disagree)</option>
+									<option value="2">2</option>
+									<option value="3">3</option>
+									<option value="4">4</option>
+									<option value="5">5 (Strongly Agree)</option>
+							</select>
+						</div>
+						<div class="form-group">
+							<label for="">Memes are the best form of humor</label>
+							<select class="form-control" style="width: 157px;" id="q6">
+									<option value>Select an Option</option>
+									<option value="1">1 (Strongly Disagree)</option>
+									<option value="2">2</option>
+									<option value="3">3</option>
+									<option value="4">4</option>
+									<option value="5">5 (Strongly Agree)</option>
+							</select>
+						</div>
+						<div class="form-group">
+							<label for="">I believe that proper communication is key to success</label>
+							<select class="form-control" style="width: 157px;" id="q7">
+									<option value>Select an Option</option>
+									<option value="1">1 (Strongly Disagree)</option>
+									<option value="2">2</option>
+									<option value="3">3</option>
+									<option value="4">4</option>
+									<option value="5">5 (Strongly Agree)</option>
+							</select>
+						</div>
+						<div class="form-group">
+							<label for="">Winning is everything</label>
+							<select class="form-control" style="width: 157px;" id="q8">
+									<option value>Select an Option</option>
+									<option value="1">1 (Strongly Disagree)</option>
+									<option value="2">2</option>
+									<option value="3">3</option>
+									<option value="4">4</option>
+									<option value="5">5 (Strongly Agree)</option>
+							</select>
+						</div>
+						<div class="form-group">
+							<label for="">I work well with others</label>
+							<select class="form-control" style="width: 157px;" id="q9">
+									<option value>Select an Option</option>
+									<option value="1">1 (Strongly Disagree)</option>
+									<option value="2">2</option>
+									<option value="3">3</option>
+									<option value="4">4</option>
+									<option value="5">5 (Strongly Agree)</option>
+							</select>
+						</div>
+						<div class="form-group">
+							<label for="">I am graceful in defeat</label>
+							<select class="form-control" style="width: 157px;" id="q10">
+									<option value>Select an Option</option>
+									<option value="1">1 (Strongly Disagree)</option>
+									<option value="2">2</option>
+									<option value="3">3</option>
+									<option value="4">4</option>
+									<option value="5">5 (Strongly Agree)</option>
+							</select>
+						</div>
+					</form>
+				</div>
+			</div>
+		<button type="submit" class="btn btn-primary btn-lg btn-block" id="submit">Submit</button>
+		<hr>
+		</div>
+	</div>
+
+	<footer class="footer">
+		<div class="container">
+			<p><a href="/api/cooperators">API Cooperators List</a></p>
+		</div>
+	</footer>
+
+	<div id="resultsModal" class="modal fade" role="dialog">
+	  <div class="modal-dialog">
+
+	    <!-- Modal content-->
+	    <div class="modal-content">
+	      <div class="modal-header">
+	        <button type="button" class="close" data-dismiss="modal">×</button>
+	        <h2 class="modal-title"><strong>Best Match</strong></h2>
+	      </div>
+	      <div class="modal-body">
+	        <h2 id="matchName"></h2>
+	        <img id="matchImg" src="https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg" alt="">
+	      </div>
+	      <div class="modal-footer">
+	        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+	      </div>
+	    </div>
+	  </div>
+	</div>
+
+</div>
+
+<script type="text/javascript">
+    $("#submit").on("click", function(){
+
+    	function isFull(){
+			var allFull=true;
+			$('.form-control').each(function(){
+				if($(this).val()==='' || $(this).val()==='Select an Option'){
+					allFull=false;}});
+		  return allFull;}
+
+		if(isFull()==true){
+	    	var newPlayer={
+	    		name: $("#Username").val(),
+	    		game: $("#GameChoice").val(),
+	    		photo: $("#Photo").val(),
+	    		scores: [$("#q1").val(), $("#q2").val(), $("#q3").val(), $("#q4").val(), $("#q5").val(), $("#q6").val(), $("#q7").val(), $("#q8").val(), $("#q9").val(), $("#q10").val(), ]}
+
+		var URL=window.location.origin;
+	    	$.post(URL+"/api/cooperators",newPlayer,function(data){
+	    		$("#matchName").text(data.name);
+	    		$('#matchImg').attr("src",data.photo);
+		    	$("#resultsModal").modal('toggle');})}
+
+		else{alert("Fill all fields first please")}
+    	return false;})
+</script>
+  
+
+</body>
+</html>
